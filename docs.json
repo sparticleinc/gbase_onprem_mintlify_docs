@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "GBase docs",
+  "name": "GBase On-prem docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "ようこそ",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "簡単な紹介",
             "pages": [
               "introduction"
             ]
@@ -22,10 +22,10 @@
         ]
       },
       {
-        "tab": "User Manual",
+        "tab": "マニュアル",
         "groups": [
           {
-            "group": "GBaseへようこそ",
+            "group": "マニュアル",
             "pages": [
               "user-manual/quickstart",
               {
@@ -90,8 +90,8 @@
         ]
       },
       {
-        "tab": "API Reference",
-        "openapi": "https://api.gbase.ai/openapi-redoc.json"
+        "tab": "API ドキュメント",
+        "openapi": "https://api.GBase On-prem.ai/openapi-redoc.json"
       }
     ]
   },
@@ -103,13 +103,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "https://gbase.ai/contact"
+        "href": "https://GBase On-prem.ai/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://admin.gbase.ai"
+      "href": "https://admin.GBase On-prem.ai"
     }
   },
   "footer": {
